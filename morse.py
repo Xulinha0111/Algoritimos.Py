@@ -1,3 +1,17 @@
+"""
+Autora: Julia Bellini Sorrente
+Instituição: Etec Prof Idio Zucchi
+Curso: 1° Ano P.I Informática para Internet 
+
+Desafio: Um código que lesse um arquivo escrito em código Morse que
+continha letras maiúsculas e números, e traduzisse as letras maiúsculas em
+minúsculas e digitar os 10 primeiros números de Fibonacci.
+
+Obs: Wagner, esse foi o meu máximo. Se eu olhasse fixamente 
+para esse código por mais 15 min, com certeza estaria prestes a entrar para
+a linhagem da Informática e começaria ali a minha jornada de calvície.
+"""
+
 if __name__ == "__main__":
     with open('morse.in') as entrada:
         with open('morse.out','w') as saida:
